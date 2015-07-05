@@ -8,9 +8,16 @@
 
 import UIKit
 
-class PickerTableViewCell: UITableViewCell {
+@objc protocol PickerTableViewCellDelegate {
+    
+    func dateDidChange(date: NSDate)
+    
+}
 
-    @IBOutlet weak var datePIcker: UIDatePicker!
+class PickerTableViewCell: UITableViewCell, UIPickerViewDelegate {
+
+    @IBOutlet weak var datePicker: UIDatePicker!
+    weak var delegate: PickerTableViewCellDelegate?
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,6 +28,13 @@ class PickerTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    
+    @IBAction func dateDidChange(sender: AnyObject) {
+        
+        delegate?.dateDidChange(datePicker.date)
+        
     }
 
 }

@@ -16,6 +16,7 @@
 		243892BC1B48FC25005C4CCE /* TableViewCellExpandSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243892BB1B48FC25005C4CCE /* TableViewCellExpandSampleTests.swift */; };
 		243892C71B48FC25005C4CCE /* TableViewCellExpandSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243892C61B48FC25005C4CCE /* TableViewCellExpandSampleUITests.swift */; };
 		243892D51B48FD21005C4CCE /* PickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243892D41B48FD21005C4CCE /* PickerTableViewCell.swift */; };
+		243892D71B498423005C4CCE /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243892D61B498423005C4CCE /* DateTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		243892C61B48FC25005C4CCE /* TableViewCellExpandSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellExpandSampleUITests.swift; sourceTree = "<group>"; };
 		243892C81B48FC25005C4CCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		243892D41B48FD21005C4CCE /* PickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTableViewCell.swift; sourceTree = "<group>"; };
+		243892D61B498423005C4CCE /* DateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				243892B21B48FC25005C4CCE /* Info.plist */,
 				243892AA1B48FC25005C4CCE /* TableViewCellExpandSample.xcdatamodeld */,
 				243892D41B48FD21005C4CCE /* PickerTableViewCell.swift */,
+				243892D61B498423005C4CCE /* DateTableViewCell.swift */,
 			);
 			path = TableViewCellExpandSample;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				243892D71B498423005C4CCE /* DateTableViewCell.swift in Sources */,
 				243892A61B48FC25005C4CCE /* ViewController.swift in Sources */,
 				243892D51B48FD21005C4CCE /* PickerTableViewCell.swift in Sources */,
 				243892A41B48FC25005C4CCE /* AppDelegate.swift in Sources */,
@@ -491,6 +495,7 @@
 				243892CD1B48FC25005C4CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		243892CE1B48FC25005C4CCE /* Build configuration list for PBXNativeTarget "TableViewCellExpandSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				243892D01B48FC25005C4CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		243892D11B48FC25005C4CCE /* Build configuration list for PBXNativeTarget "TableViewCellExpandSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +513,7 @@
 				243892D31B48FC25005C4CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
